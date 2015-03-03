@@ -22,13 +22,13 @@ void test_checkfile(struct file_info *f, char *file){
 int main() {
     
     init();
-    struct login_message lm = {"manos", "dir1"};
+    struct login_message lm = {"Person1", "dir1"};
     
     test_add_client(lm);
-    struct login_message lm1 = {"paul", "dir2"};
+    struct login_message lm1 = {"Person2", "dir2"};
     
     test_add_client(lm1);
-    struct login_message lm2= {"jen", "dir1"};
+    struct login_message lm2= {"Person3", "dir1"};
     test_add_client(lm2);
     
     
